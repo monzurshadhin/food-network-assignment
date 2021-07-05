@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+.navbar {
+  /**/
+  position: fixed;
+  background-image: linear-gradient(to right, #309ff5, #3227cf);
+
+  overflow: hidden;
+  width: 100%;
+}
+.navbar ul {
+  list-style: none;
+  float: right;
+}
+.navbar ul li {
+  display: inline;
+}
+.navbar ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.name-section {
+  display: flex;
+  padding-top: 100px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 50px;
+}
+.half-width h1 {
+  margin-top: 40px;
+}
+.half-width img {
+  width: 100%;
+  padding-left: 60px;
+  padding-top: 30px;
+}
+.name-section h1 {
+  font-size: 60px;
+  color: rgb(53, 53, 70);
+}
+.name-section span {
+  color: #443adc;
+}
+.name-section p {
+  color: rgb(53, 53, 70);
+
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.button {
+  display: inline-block;
+  margin-bottom: 50px;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+  background-image: linear-gradient(90deg, #309ff5, #3227cf);
+  padding: 10px 40px;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 2px rgb(109, 145, 221);
+}
+.about-section {
+  margin-top: 60px;
+  display: flex;
+}
+
+.about-section h2 {
+  color: rgb(53, 53, 70);
+  font-weight: 700;
+  font-size: 45px;
+}
+.about-section img {
+  margin-top: 60px;
+}
+
+.about-section p {
+  color: rgb(53, 53, 70);
+
+  padding-top: 30px;
+  margin-bottom: 50px;
+}
+
+.second-div-about {
+  padding-top: 100px;
+  padding-left: 150px;
+}
+#about {
+  background-image: url(images/Frame\ 57.jpg);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
