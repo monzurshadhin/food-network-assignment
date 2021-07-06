@@ -38,7 +38,6 @@ body {
 .name-section {
   display: flex;
   padding-top: 100px;
-  height: 110vh;
 }
 .half-width {
   width: 50%;
@@ -107,12 +106,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 100vh;
 }
 
 #reciepies {
   margin-top: 60px;
-  height: 100vh;
 }
 #reciepies h2,
 .reciepies-description {
