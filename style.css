@@ -185,6 +185,9 @@ p {
   outline: none;
   border: none;
   width: 80%;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px;
 }
 footer {
   padding: 30px;
